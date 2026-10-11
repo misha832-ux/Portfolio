@@ -14,7 +14,7 @@ const EDUCATION: EducationEntry[] = [
         degree: "B.Sc. in Computer Science & Engineering",
         institution: "BRAC University",
         period: "2022 — 2026",
-        CGPA: "*",
+        CGPA: 3.76,
     },
     {
         degree: "Higher Secondary Certificate (HSC)",
