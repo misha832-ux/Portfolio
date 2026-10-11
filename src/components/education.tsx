@@ -5,7 +5,7 @@ interface EducationEntry {
     degree: string
     institution: string
     period: string
-    CGPA?: string
+    CGPA?: number
     GPA?: number
 }
 
