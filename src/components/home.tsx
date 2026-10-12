@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import "./home.css"
-import profileImg from "../assets/myPic.jpg";
+import profileImg from "../assets/myPic.jpeg";
 
 const PROMPT_TEXT = "whoami"
 
