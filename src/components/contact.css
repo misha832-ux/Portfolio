@@ -54,3 +54,34 @@
     transform: translateY(-2px);
     box-shadow: 0 10px 30px -8px rgba(124, 92, 255, 0.5);
 }
+
+
+/* Mobile responsive contact section */
+@media (max-width: 600px) {
+    .contact-card {
+        padding: 20px 14px;
+    }
+
+    .contact-links {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 12px;
+    }
+
+    .contact-link {
+        min-width: 0;
+        padding: 13px 12px;
+        gap: 10px;
+        font-size: 0.85rem;
+    }
+
+    .contact-link span {
+        min-width: 0;
+        flex: 1;
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    .contact-icon {
+        flex-shrink: 0;
+    }
+}
